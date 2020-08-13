@@ -15,8 +15,8 @@
     "type": "git",
     "url": "git+https://github.com/franxx32/als.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ALS", "Async", "Local", "Storage"],
+  "author": "FranXX",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/franxx32/als/issues"
