@@ -1,5 +1,5 @@
 {
-  "name": "als",
+  "name": "async-local-storage",
   "version": "0.1.0",
   "engines": {
     "node": "^14.8.0"
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/franxx32/als.git"
   },
   "keywords": ["ALS", "Async", "Local", "Storage"],
-  "author": "FranXX",
+  "author": "FranXX32",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/franxx32/als/issues"
