@@ -1,5 +1,5 @@
 {
-  "name": "async-local-storage",
+  "name": "als-as-middleware",
   "version": "0.1.0",
   "engines": {
     "node": "^14.8.0"
