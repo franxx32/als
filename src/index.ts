@@ -1,12 +1,12 @@
 import { Request, Response, NextFunction } from 'express'
 import { asyncLocalStorage } from './storage'
 
-export const express = <T>(store: T) => (
+export const expressALS = <T extends object>(store?: T) => (
   req: Request,
   res: Response,
   next: NextFunction,
 ) => {
-  asyncLocalStorage.run(store, () => {
+  asyncLocalStorage.run(store ?? {}, () => {
     next()
   })
 }
